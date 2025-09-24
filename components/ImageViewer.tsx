@@ -3,12 +3,16 @@ import { ImageSourcePropType, StyleSheet, View } from 'react-native';
 
 type Props = {
     imgSource: ImageSourcePropType
+    selectedImage?: string
 }
 
 export default function ImageViewer(props: Props) {
+    // essentially says: if the selected image exists (was passed in) extract the uri from it else use the default passed in
+    // Since selected image is a state variable, this component will update as the selectedImage is set
+    const src = props.selectedImage? {uri: props.selectedImage} : props.imgSource;
     return (
     <View style={styles.imageContainer}>
-        <Image source={props.imgSource} style={styles.image}></Image>
+        <Image source={src} style={styles.image}></Image>
     </View>)
 }
 
