@@ -2,6 +2,8 @@
 For a full discussion of concepts learned from the sections see associated pull requests.
 - [Create Your First App](https://docs.expo.dev/tutorial/create-your-first-app/)
 - [Add Navigation](https://docs.expo.dev/tutorial/add-navigation/)
+- [Build a Screen](https://docs.expo.dev/tutorial/build-a-screen/)
+- [Use an Image Picker](https://docs.expo.dev/tutorial/image-picker/)
 
 ## Expo App Tutorial
 
