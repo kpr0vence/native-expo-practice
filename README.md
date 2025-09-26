@@ -4,6 +4,8 @@ For a full discussion of concepts learned from the sections see associated pull 
 - [Add Navigation](https://docs.expo.dev/tutorial/add-navigation/)
 - [Build a Screen](https://docs.expo.dev/tutorial/build-a-screen/)
 - [Use an Image Picker](https://docs.expo.dev/tutorial/image-picker/)
+- [Create a Modal](https://docs.expo.dev/tutorial/create-a-modal/)
+- [Add Gestures](https://docs.expo.dev/tutorial/gestures/)
 
 ## Expo App Tutorial
 
