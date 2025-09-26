@@ -1,5 +1,5 @@
 import { Image } from 'expo-image';
-import { ImageSourcePropType, StyleSheet, View } from 'react-native';
+import { ImageSourcePropType, StyleSheet } from 'react-native';
 
 type Props = {
     imgSource: ImageSourcePropType
@@ -11,9 +11,8 @@ export default function ImageViewer(props: Props) {
     // Since selected image is a state variable, this component will update as the selectedImage is set
     const src = props.selectedImage? {uri: props.selectedImage} : props.imgSource;
     return (
-    <View style={styles.imageContainer}>
         <Image source={src} style={styles.image}></Image>
-    </View>)
+    )
 }
 
 const styles = StyleSheet.create({
