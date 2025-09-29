@@ -54,7 +54,7 @@ export default function Index() {
 
   const onSaveImageAsync = async () => {
     // Non web
-    if (Platform.OS != 'web'){
+    if (Platform.OS !== 'web'){
       try {
         const localUri = await captureRef(imageRef, {
           height: 440,
