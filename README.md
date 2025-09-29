@@ -7,6 +7,7 @@ For a full discussion of concepts learned from the sections see associated pull 
 - [Create a Modal](https://docs.expo.dev/tutorial/create-a-modal/)
 - [Add Gestures](https://docs.expo.dev/tutorial/gestures/)
 - [Take a Screenshot](https://docs.expo.dev/tutorial/screenshot/)
+- [Handle Platform Differences](https://docs.expo.dev/tutorial/platform-differences/)
 
 ## Expo App Tutorial
 
