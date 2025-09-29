@@ -1,5 +1,6 @@
 # Log of Completed Sections of the [Tutorial](https://docs.expo.dev/tutorial/introduction/)
 For a full discussion of concepts learned from the sections see associated pull requests.
+## EXPO Tutorial
 - [Create Your First App](https://docs.expo.dev/tutorial/create-your-first-app/)
 - [Add Navigation](https://docs.expo.dev/tutorial/add-navigation/)
 - [Build a Screen](https://docs.expo.dev/tutorial/build-a-screen/)
@@ -10,7 +11,11 @@ For a full discussion of concepts learned from the sections see associated pull 
 - [Handle Platform Differences](https://docs.expo.dev/tutorial/platform-differences/)
 - [Configure Status Bar, Icon, and Splash](https://docs.expo.dev/tutorial/configuration/)
 
-## Expo App Tutorial
+## EAS Tutorial
+*This section seems like it will be particularly helpful when deploying and developing my Grocery App, "Mr. Fridge"*
+- [Configure a Development Build in Cloud](https://docs.expo.dev/tutorial/eas/configure-development-build/)
+
+# Expo App Commands
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 1. Start the app
