@@ -8,6 +8,7 @@ For a full discussion of concepts learned from the sections see associated pull 
 - [Add Gestures](https://docs.expo.dev/tutorial/gestures/)
 - [Take a Screenshot](https://docs.expo.dev/tutorial/screenshot/)
 - [Handle Platform Differences](https://docs.expo.dev/tutorial/platform-differences/)
+- [Configure Status Bar, Icon, and Splash](https://docs.expo.dev/tutorial/configuration/)
 
 ## Expo App Tutorial
 
