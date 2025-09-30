@@ -2,6 +2,7 @@
   "expo": {
     "name": "PhotoBomb",
     "slug": "PhotoBomb",
+    "owner": "kproven1-dev",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,7 +10,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kpr0vence.PhotoBomb",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +24,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.kpr0vence.PhotoBomb"
     },
     "web": {
       "output": "static",
@@ -49,7 +55,6 @@
       "eas": {
         "projectId": "0b8be9f2-9468-49c7-bd9a-9870cad35791"
       }
-    },
-    "owner": "kpr0vence"
+    }
   }
 }
