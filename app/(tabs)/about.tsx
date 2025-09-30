@@ -3,6 +3,6 @@ import { styles } from "./index";
 
 export default function AboutPage() {
     return <View style={styles.container}>
-        <Text style={styles.text}>This is the about page</Text>
+        <Text style={styles.text}>This is the about page BOOYAH!</Text>
     </View>
 }
